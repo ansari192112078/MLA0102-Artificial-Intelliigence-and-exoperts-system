@@ -1,0 +1,8 @@
+# Python3 program to implement traveling salesman
+# problem using naive approach.
+from sys import maxsize
+from itertools import permutations
+V = 4	
+# implementation of traveling Salesman Problem
+def travellingSalesmanProblem(graph, s):
+
